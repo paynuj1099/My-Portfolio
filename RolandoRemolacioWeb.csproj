@@ -69,8 +69,17 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="Src\css\style.css" />
+    <Content Include="Src\images\chatboticon.png" />
+    <Content Include="Src\images\eventcalendar.png" />
+    <Content Include="Src\images\ledger.png" />
     <Content Include="Src\images\logo.png" />
+    <Content Include="Src\images\mapdata.png" />
     <Content Include="Src\images\myavatar.png" />
+    <Content Include="Src\images\patlink.png" />
+    <Content Include="Src\images\thermalfluid.png" />
+    <Content Include="Src\images\vacuum.png" />
+    <Content Include="Src\images\vb.png" />
+    <Content Include="Src\images\wip.jpg" />
     <Content Include="Src\js\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -89,6 +98,8 @@
     <None Include="Properties\PublishProfiles\rolandojrremolacio - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\rolandojrremolacio - ReadOnly - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\rolandojrremolacio - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\rolandoremolaciojr - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\rolandoremolaciojr - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

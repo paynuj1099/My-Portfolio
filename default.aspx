@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>My Portfolio</title>
 
     <!--
@@ -17,8 +17,15 @@
     <!--
       - custom css link
     -->
+
     <link rel="stylesheet" href="Src/css/style.css">
 
+    <style>
+
+        
+
+
+    </style>
     <!--
       - google font link
     -->
@@ -44,7 +51,9 @@
             <div class="sidebar-info">
 
                 <figure class="avatar-box">
-                    <img src="Src/images/myavatar.png" alt="Rolando Remolacio" width="80">
+                    <a href="default.aspx">
+                        <img src="Src/images/myavatar.png" alt="Rolando Remolacio" width="80">
+                    </a>
                 </figure>
 
                 <div class="info-content">
@@ -75,8 +84,13 @@
 
                         <div class="contact-info">
                             <p class="contact-title">Email</p>
-                            <a class="contact-link">rolandojrremolacio@gmail.com</a>
+                            <a class="contact-link"
+                                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rolandojrremolacio@gmail.com&su=Portfolio%20Query"
+                                target="_blank">rolandojrremolacio@gmail.com
+                            </a>
                         </div>
+
+
 
                     </li>
 
@@ -89,7 +103,7 @@
                         <div class="contact-info">
                             <p class="contact-title">Phone</p>
 
-                            <a class="contact-link">+63 9625871454</a>
+                            <a class="contact-link">+63 9625871***</a>
                         </div>
 
                     </li>
@@ -103,7 +117,7 @@
                         <div class="contact-info">
                             <p class="contact-title">Birthday</p>
 
-                            <time datetime="1999-10-09">October 09, 1999</time>
+                            <time datetime="1999-10-09">October **, ****</time>
                         </div>
 
                     </li>
@@ -219,9 +233,64 @@
 
                 </section>
 
+                <section class="tech-stack">
+                    <h3 class="h3 article-title">Tech Stack</h3>
+                    <ul class="tech-list">
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET">
+                            <div class="tech-label">.NET<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                            <div class="tech-label">C#<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="VB.Net">
+                            <div class="tech-label">VB.Net<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <div class="tech-label">JavaScript<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery">
+                            <div class="tech-label">jQuery<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                            <div class="tech-label">Node.js<br>
+                                <span>1 yr</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="MSSQL">
+                            <div class="tech-label">MS SQL<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                            <div class="tech-label">HTML5<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                            <div class="tech-label">CSS3<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                        <li class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                            <div class="tech-label">Bootstrap<br>
+                                <span>2 yrs</span></div>
+                        </li>
+                    </ul>
+                </section>
+
+
             </article>
-
-
 
 
 
@@ -251,10 +320,10 @@
 
                             <h4 class="h4 timeline-item-title">Programmer Analyst</h4>
 
-                            <span>April 2025 — Present</span>
+                            <span>Vertere Global Solutions, Inc.</span>
 
                             <p class="timeline-text">
-                                Vertere Global Solutions, Inc.
+                                April 2025 — Present
                             </p>
 
                         </li>
@@ -263,10 +332,10 @@
 
                             <h4 class="h4 timeline-item-title">Assistant Engineer 1</h4>
 
-                            <span>May 2023 — April 2025</span>
+                            <span>ROHM Electronics Philippines, Inc.</span>
 
                             <p class="timeline-text">
-                                ROHM Electronics Philippines, Inc.
+                               May 2023 — April 2025
                             </p>
 
                         </li>
@@ -387,6 +456,131 @@
                     <ul class="project-list">
 
                         <%--ADD PROJECTS HERE--%>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/thermalfluid.png" alt="Monitoring" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Thermal Fluid Monitoring</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/vacuum.png" alt="Vacuum Pincette" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Check Sheet</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/patlink.png" alt="PatLink" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Data Retrieval</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/ledger.png" alt="Ledger" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Digital Ledger</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/eventcalendar.png" alt="Event Calendar" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Event Calendar</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="windows applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/mapdata.png" alt="Data Uploading Automation" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Data Uploading Automation</h3>
+
+                                <p class="project-category">Windows Applications</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="windows applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="Src/images/wip.jpg" alt="WIP Category Visualization" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Poduct Category Visualization</h3>
+
+                                <p class="project-category">Windows Applications</p>
+
+                            </a>
+                        </li>
 
                     </ul>
 
@@ -416,7 +610,7 @@
 
                     <h3 class="h3 form-title">Contact Form</h3>
 
-                    <form action="#" class="form" data-form>
+                    <form action="#" class="form" runat="server" data-form>
 
                         <div class="input-wrapper">
                             <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -426,10 +620,11 @@
 
                         <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-                        <button class="form-btn" type="submit" disabled data-form-btn>
+                        <asp:LinkButton ID="SendLinkButton" runat="server" CssClass="form-btn" OnClick="SendButton_Click" style="cursor: pointer" Enabled="false" data-form-btn>
                             <ion-icon name="paper-plane"></ion-icon>
                             <span>Send Message</span>
-                        </button>
+                        </asp:LinkButton>
+
 
                     </form>
 
@@ -438,17 +633,45 @@
             </article>
 
         </div>
+        </main>
+      
 
-    </main>
+<!-- Chatbot Trigger -->
+<div id="chat-icon" onclick="toggleChat()" title="Chat with me">
+  <img src="Src/images/chatboticon.png" alt="Chatbot Icon" style="width: 50px; height: 50px;">
+</div>
 
+<!-- Blur Backdrop -->
+<div id="chat-backdrop" onclick="toggleChat()"></div>
 
+<!-- Chatbot Container -->
+<div id="chatbot">
+  <div id="chat-header">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+      <img src="Src/images/chatboticon.png" alt="Chatbot Icon" style="width: 30px; height: 30px;">
+      <span style="font-size: var(--fs-4); font-weight: var(--fw-600); color: var(--white-1);">
+        Let’s Chat!
+      </span>
+    </div>
+    <small style="display: block; margin-top: 4px; font-size: var(--fs-7); font-weight: var(--fw-400); color: var(--white-2); text-align: center;">
+      I'm <strong>Neo</strong>, your virtual assistant.
+    </small>
+  </div>
 
+  <div id="chat-messages"></div>
+
+  <div id="chat-input">
+    <input type="text" id="user-input" placeholder="Type a message..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
 
 
 
     <!--
       - custom js link
     -->
+
     <script src="Src/js/script.js"></script>
 
     <!--
